@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Gym</title>
+
+    <style>
+        body {
+            margin: 0px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .body-img{
+            height: 90%;
+            width: 100%;
+            display: flex;
+        }
+        header{
+            transform: translate(20px, -1007px);
+        }
+
+        #logoo {
+            transform: translate(20px, -1007px);
+            left: 16px;
+            height: 141px;
+            width: 185px;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: #928d86;
+            height: 50px;
+            width: 1048px;
+            margin-top: -104px;
+            /* margin: auto; */
+            border-radius: 10px;
+            position: absolute;
+            left: 328px;
+
+        }
+
+        .navbar li {
+            margin: -3px 12px;
+            float: left;
+            font-size: 18px;
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            list-style: none;
+            color: #352e27;
+            text-align: center;
+            background-color: #928d86;
+            border-radius: 30px;
+            padding: 7px 12px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar a:hover {
+            background-color: #7c7f7c;
+            color: #292826;
+        }
+
+        #sbox {
+            height: 25px;
+            width: 273px;
+            float: right;
+            margin-right: 42px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            bottom: 6px;
+            align-items: center;
+            text-align: center;
+            color: #b4aea8;
+            border-radius: 6px;
+            position: relative;
+}
+        #sbox:hover{
+            background-color: #e7e5e5;
+        }
+
+        .container {
+            border: 5px solid #272727;
+            width: 388px;
+            height: 449px;
+            margin: auto;
+            position: absolute;
+            top: 189px;
+            left: 565px;
+            background-color: #1a181878;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            color: #ffeb3b;
+            font-size: 30px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .ip{
+            height: 40px;
+            width: 235px;
+            margin: 8px 72px;
+            position: relative;
+            top: 10px;
+            border-radius: 7px;
+            font-size: 17px;
+            text-align: center;
+            color: aquamarine;
+            
+        }
+        
+       .container button{
+        height: 46px;
+        width: 92px;
+        position: relative;
+        top: 33px;
+        left: 142px;
+        border-radius: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        
+}
+form input {
+background-color: #2a2b2b;
+border: 2px solid #7ba97b;
+}
+form ::placeholder{
+    color: #a9a9a9;
+}
+form input:hover{
+background-color: rgba(71, 72, 72, 0.638);
+border: 1px solid #7ba97b;
+cursor: pointer;
+}
+button{
+    border: 2.5px solid #6871ac;
+background-color: #4f4b4b;
+}
+
+button:hover{
+    background-color: rgb(46, 45, 45);
+    border: 2px solid rgb(77, 85, 147);
+    color: #9b8e8e;
+}
+
+#ag{float: left;
+    box-sizing: border-box;
+}
+#num{
+box-sizing: border-box;
+display: flex;
+align-items: flex-start;
+
+}
+.test h2{
+    position: relative;
+    top: -195px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    color: #21d2cff6;
+    font-size: 46px;
+    text-decoration: underline;
+    background-color: #5b6060;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 0px;
+}
+.container1{
+    background-color: #272727;
+    display: block;
+    align-items: center;
+    width: 70%;
+    padding-block: 8px;
+    border-radius: 115px;
+    padding-block-end: 73px;
+
+}
+.main{
+    display: block;
+    justify-items: center;
+    position: relative;
+    background-color:#5b6060;
+    top: -233px;
+    margin-bottom: -241px;
+}
+.container2{
+    background-color: #272727;
+    margin-left: 0;
+    width: 70%;
+    padding-block: 8px;
+    border-radius: 115px;
+    padding-block-end: 73px;
+}
+.container2 h3{
+    text-align: center;
+    font-size: 35px;
+    color: #10c910;
+}
+.container1 h3{
+    text-align: center;
+    font-size: 35px;
+    color: #10c910;
+}
+#if{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 63px;
+
+}
+.trn{
+    background-color: #7e8181;
+    padding-bottom: 190px;
+    padding-top: 20px;
+}
+h2 {
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #329594;
+            text-shadow: 1px 1px 3px #085e3a;
+            text-align: center;
+            display: inline-flex;
+            position:relative;
+            left: 555px;
+            background-color: #aaadaa;
+            border-radius: 5px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse:separate;
+            border-radius: 0PX;
+            
+            overflow: hidden;
+            box-shadow: 0px 0px 15px rgba(78, 77, 75, 0.5);
+            background-color: #c3bbbb;
+        }
+        th, td {
+            padding: 15px;
+            border: 2px solid #272727;
+            text-align: center;
+        }
+        th {
+            background: linear-gradient(45deg, #a9aaa9, #4c4e4d);
+            color: white;
+            font-size: 1.2em;
+        }
+        td {
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        tr:hover td {
+            background: #5a5858;
+            transform: scale(1.005);
+            border-radius:5px;
+        }
+
+
+
+    
+    </style>
+    
+</head>
+
+<body>
+        <img class="body-img" src="backg.jpg" alt="error">
+        <img src="logoooo.png" alt="error" id="logoo">
+        
+    
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Equipments</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <input type="text" placeholder="Search" id="sbox">
+            </nav>
+        </header>
+    </div>
+    
+    <div class="container">
+        <h1>Join with us</h1>
+        <form action="backend">
+            <input type="text" placeholder="Full name" class="ip">
+            <input type="number" placeholder="Mobile No."class="ip" id="num"> 
+            <input type="number" placeholder="Age"class="ip" id="ag">
+            <input type="email" placeholder="Email Id"class="ip">
+            <button>Join</button>
+        </form>
+        
+    </div>
+    
+    
+    
+
+    <div class="test">
+        <h2>Insights</h2>
+    </div>
+    <div class="main">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container1">
+            <h3>Gym Tour</h3>
+            <div id="if">
+            <iframe  id="if" width="600" height="345"  src="https://www.youtube.com/embed/vZEtKWZdom4?si=AH-5ykXLWD6OPurw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <br>
+
+        <div class="container2">
+            <h3>Location</h3>
+            <div id="if">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29768.635749683413!2d79.0212768743164!3d21.149235499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c159cf1ee801%3A0x35ac32a55c69ff3b!2sULTRAFIT%20GYM%20(Ravi%20Nagar)!5e0!3m2!1sen!2sin!4v1738149770741!5m2!1sen!2sin" width="560" height="315" style="border-radius:63px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+<div  class="trn">
+    <hr style="height: 3px; background-color: black; position: relative; bottom: 25px;">
+    
+    <h2>Weekly Gym Routine</h2>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Workout Type</th>
+            <th>Exercises</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Chest & Triceps</td>
+            <td>Bench Press, Dumbbell Flys, Tricep Dips</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Back & Biceps</td>
+            <td>Pull-ups, Barbell Rows, Bicep Curls</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Legs</td>
+            <td>Squats, Lunges, Calf Raises</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Shoulders & Abs</td>
+            <td>Shoulder Press, Side Raises, Planks</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Full Body</td>
+            <td>Deadlifts, Burpees, Pull-ups</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Cardio & Core</td>
+            <td>Running, Cycling, Crunches</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Rest</td>
+            <td>Recovery, Stretching</td>
+        </tr>
+    </table>
+</div>
+</body>
+
+</html>
